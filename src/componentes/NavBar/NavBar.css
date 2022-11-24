@@ -1,0 +1,33 @@
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #264653;
+    height: 100px;
+    width: 100%;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .nav-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  a {
+    color: #e76f51;
+    text-decoration: none;
+    padding: 5px;
+
+  }
+  a:hover {
+    color: white;
+  }
+  li {
+    margin-top: 10px;
+  }
