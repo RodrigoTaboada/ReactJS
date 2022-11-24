@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/* import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -19,6 +19,23 @@ function App() {
         </a>
       </header>
     </div>
+  );
+}
+
+export default App; */
+
+import React from "react";
+import "./App.css";
+import Navbar from "./components/NavBar/NavBar.js";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+
+function App() {
+
+  return (
+    <>
+      <Navbar />
+      <ItemListContainer message='Bienvenido a CompraOnline' name='Anonimo' />  */
+    </>
   );
 }
 
